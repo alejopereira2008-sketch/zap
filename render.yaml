@@ -7,4 +7,5 @@ services:
     buildCommand: npm install
     startCommand: node index.js
     envVars:
-      NODE_VERSION: 20.18.0
+      - key: NODE_VERSION
+        value: 20.18.0

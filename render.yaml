@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zap
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      NODE_VERSION: 20.18.0
